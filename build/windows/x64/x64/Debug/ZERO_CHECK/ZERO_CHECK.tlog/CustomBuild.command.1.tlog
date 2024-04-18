@@ -1,0 +1,10 @@
+^C:\USERS\JORDI\DESKTOP\PROYECTOS\FLUTTER\ONE_PIECE_LIST\BUILD\WINDOWS\X64\CMAKEFILES\FCFB288DC5A1AC90B6A569CC037DDB8D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Jordi/Desktop/Proyectos/Flutter/one_piece_list/windows -BC:/Users/Jordi/Desktop/Proyectos/Flutter/one_piece_list/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jordi/Desktop/Proyectos/Flutter/one_piece_list/build/windows/x64/one_piece_list.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
