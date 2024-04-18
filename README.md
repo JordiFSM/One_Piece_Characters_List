@@ -34,3 +34,20 @@ Technical Implementation:
 Animation widgets available in Flutter would be used to create impressive visual effects when scrolling through the list of characters and interacting with each character's details.
 Character data would be stored in an internal database or retrieved from an external API if available.
 For the search function, a search mechanism would be implemented to filter characters based on the text entered by the user and dynamically update the list of results.
+
+Annexes:
+
+<br/>
+<div align="center">
+  <img alt="Demo" src="assets/ex1.png" />
+</div>
+<br/>
+<br/>
+
+<br/>
+<div align="center">
+  <img alt="Demo" src="assets/ex2.png" />
+</div>
+<br/>
+<br/>
+
